@@ -33,7 +33,7 @@ public class HelloController {
         int maxidd = Convert.toInt(maxid);
         String sqls = "TSQL = ";
         Console.log(maxid);
-        for(int a = maxidd+1;a< maxidd+1+30;a++){
+        for(int a = maxidd+1;a< maxidd+1+6;a++){
             int page = RandomUtil.randomInt(10,40);
             int zz = RandomUtil.randomInt(0,3);
             String penname = RandomUtil.randomString("阳光佳美好浩然乾坤正义山有木兮木有枝心悦君兮君不知人间四月芳菲尽",zz);
@@ -48,4 +48,6 @@ public class HelloController {
         return  sqls;
 
     }
+
+
 }
