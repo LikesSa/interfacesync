@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.95.13.93:3306/likestext?serverTimezone=GMT%2B8
+    username: zzdqadmin
+    password: zzdq123456
