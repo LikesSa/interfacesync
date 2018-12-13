@@ -1,4 +1,4 @@
-package com.dqkj.interfacesync;
+package com.dqkj.domain;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
